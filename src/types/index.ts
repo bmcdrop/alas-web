@@ -36,4 +36,5 @@ export interface GalleryImage {
   image: string;
   alt: string;
   span?: "tall" | "wide" | "normal";
+  postUrl: string;
 }

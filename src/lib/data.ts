@@ -9,7 +9,7 @@ export const menuItems: MenuItem[] = [
     category: "Café",
     name: "Alas Signature",
     description: "Espresso de origen único, notas a caramelo y cacao tostado.",
-    price: "$3.80",
+    price: "$3.800",
     image: img("photo-1495474472287-4d71bcdd2085"),
   },
   {
@@ -17,7 +17,7 @@ export const menuItems: MenuItem[] = [
     category: "Café",
     name: "Flat White",
     description: "Doble espresso con leche vaporizada en textura de seda.",
-    price: "$4.20",
+    price: "$4.200",
     image: img("photo-1512568400610-62da28bc8a13"),
   },
   {
@@ -25,7 +25,7 @@ export const menuItems: MenuItem[] = [
     category: "Café",
     name: "Pour Over",
     description: "Método V60, grano de temporada, taza limpia y floral.",
-    price: "$4.60",
+    price: "$4.600",
     image: img("photo-1509042239860-f550ce710b93"),
   },
   {
@@ -33,7 +33,7 @@ export const menuItems: MenuItem[] = [
     category: "Bebidas frías",
     name: "Cold Brew de la Casa",
     description: "16 horas de infusión en frío. Suave, dulce, sin amargor.",
-    price: "$4.50",
+    price: "$4.500",
     image: img("photo-1461023058943-07fcbe16d735"),
   },
   {
@@ -41,7 +41,7 @@ export const menuItems: MenuItem[] = [
     category: "Bebidas frías",
     name: "Latte Helado de Vainilla",
     description: "Espresso, leche fría y vainilla natural de Madagascar.",
-    price: "$4.90",
+    price: "$4.900",
     image: img("photo-1541167760496-1628856ab772"),
   },
   {
@@ -49,7 +49,7 @@ export const menuItems: MenuItem[] = [
     category: "Té",
     name: "Té Matcha Ceremonial",
     description: "Matcha japonés batido a mano, leche de avena opcional.",
-    price: "$4.70",
+    price: "$4.700",
     image: img("photo-1515823064-d6e0c04616a7"),
   },
   {
@@ -57,7 +57,7 @@ export const menuItems: MenuItem[] = [
     category: "Té",
     name: "Infusión de Manzanilla y Miel",
     description: "Flores de manzanilla, miel local y un toque de limón.",
-    price: "$3.90",
+    price: "$3.900",
     image: img("photo-1499636136210-6f4ee915583e"),
   },
   {
@@ -65,7 +65,7 @@ export const menuItems: MenuItem[] = [
     category: "Pastelería",
     name: "Croissant de Mantequilla",
     description: "Horneado cada mañana, 48 horas de fermentación.",
-    price: "$3.20",
+    price: "$3.200",
     image: img("photo-1509440159596-0249088772ff"),
   },
   {
@@ -73,7 +73,7 @@ export const menuItems: MenuItem[] = [
     category: "Pastelería",
     name: "Banana Bread Artesanal",
     description: "Receta de la casa con nuez tostada y canela.",
-    price: "$3.60",
+    price: "$3.600",
     image: img("photo-1606313564200-e75d5e30476c"),
   },
   {
@@ -81,7 +81,7 @@ export const menuItems: MenuItem[] = [
     category: "Especiales de temporada",
     name: "Latte de Cardamomo",
     description: "Edición limitada. Especias cálidas, espuma sedosa.",
-    price: "$5.10",
+    price: "$5.100",
     image: img("photo-1541167760496-1628856ab772"),
   },
   {
@@ -89,10 +89,11 @@ export const menuItems: MenuItem[] = [
     category: "Especiales de temporada",
     name: "Affogato de Temporada",
     description: "Espresso caliente sobre helado artesanal de la casa.",
-    price: "$5.40",
+    price: "$5.400",
     image: img("photo-1544787219-7f47ccb76574"),
   },
 ];
+
 
 export const menuCategories = [
   "Café",
@@ -129,39 +130,86 @@ export const testimonials: Testimonial[] = [
   },
 ];
 
-export const locations: Location[] = [
+
+
+export const galleryImages: GalleryImage[] = [
   {
-    id: "l1",
-    name: "ALAS · Centro",
-    address: "Av. de las Flores 214, entre calle Roble y calle Jazmín",
-    hours: [
-      { label: "Lun – Vie", value: "7:00 am – 8:00 pm" },
-      { label: "Sáb – Dom", value: "8:00 am – 9:00 pm" },
-    ],
-    parking: "Estacionamiento gratuito por 2 horas en el patio interior.",
-    mapsUrl: "https://maps.google.com/?q=Av+de+las+Flores+214",
+    id: "g1",
+    image: "/images/instagram/alas-01.jpg",
+    alt: "Interior de la cafetería ALAS",
+    span: "tall",
+    postUrl: "https://www.instagram.com/p/Cm1p43GO-ea/",
   },
   {
-    id: "l2",
-    name: "ALAS · Bosque Norte",
-    address: "Calle del Roble 88, frente a la plaza principal",
-    hours: [
-      { label: "Lun – Vie", value: "7:30 am – 7:00 pm" },
-      { label: "Sáb – Dom", value: "8:30 am – 8:00 pm" },
-    ],
-    parking: "Estacionamiento público a 50 metros sobre calle Roble.",
-    mapsUrl: "https://maps.google.com/?q=Calle+del+Roble+88",
+    id: "g2",
+    image: "/images/instagram/alas-02.jpg",
+    alt: "Preparación de café en ALAS",
+    span: "normal",
+    postUrl: "https://www.instagram.com/p/CoKUZv2uObd/",
+  },
+  {
+    id: "g3",
+    image: "/images/instagram/alas-03.jpg",
+    alt: "Selección de productos de ALAS",
+    span: "wide",
+    postUrl: "https://www.instagram.com/p/CoM4RNcO0IN/",
+  },
+  {
+    id: "g4",
+    image: "/images/instagram/alas-04.jpg",
+    alt: "Detalle del espacio de ALAS",
+    span: "normal",
+    postUrl: "https://www.instagram.com/p/DOlaskDDY6v/",
+  },
+  {
+    id: "g5",
+    image: "/images/instagram/alas-05.jpg",
+    alt: "Café preparado por ALAS",
+    span: "normal",
+    postUrl: "https://www.instagram.com/p/CklJdm7OgS3/",
+  },
+  {
+    id: "g6",
+    image: "/images/instagram/alas-06.jpg",
+    alt: "Experiencia dentro de la cafetería ALAS",
+    span: "wide",
+    postUrl: "https://www.instagram.com/p/CouZC3NOlBD/",
+  },
+  {
+    id: "g7",
+    image: "/images/instagram/alas-07.jpg",
+    alt: "Producto destacado de ALAS",
+    span: "normal",
+    postUrl: "https://www.instagram.com/p/CpVQLlbuEkp/?img_index=2",
+  },
+  {
+    id: "g8",
+    image: "/images/instagram/alas-08.jpg",
+    alt: "Momentos compartidos en ALAS",
+    span: "tall",
+    postUrl: "https://www.instagram.com/p/DJDbvsUuRnb/?img_index=1",
   },
 ];
 
-export const galleryImages: GalleryImage[] = [
-  { id: "g1", image: img("photo-1521017432531-fbd92d768814", 900), alt: "Taza de café sobre madera", span: "tall" },
-  { id: "g2", image: img("photo-1498804103079-a6351b050096", 900), alt: "Latte art en forma de corazón" },
-  { id: "g3", image: img("photo-1447933601403-0c6688de566e", 900), alt: "Granos de café tostados", span: "wide" },
-  { id: "g4", image: img("photo-1517705008128-361805f42e86", 900), alt: "Amigos conversando en la cafetería" },
-  { id: "g5", image: img("photo-1442512595331-e89e73853f31", 900), alt: "Mesa junto a la ventana con luz natural", span: "tall" },
-  { id: "g6", image: img("photo-1442550528053-c431ecb55509", 900), alt: "Detalle de granos de café" },
-  { id: "g7", image: img("photo-1600093463592-8e36ae95ef56", 900), alt: "Interior cálido de la cafetería", span: "wide" },
-  { id: "g8", image: img("photo-1521305916504-4a1121188589", 900), alt: "Persona disfrutando un café junto a la ventana" },
-  { id: "g9", image: img("photo-1524350876685-274059332603", 900), alt: "Pastelería recién horneada" },
+export const locations: Location[] = [
+  {
+    id: "l1",
+    name: "ALAS Templo principal",
+    address: "Av. Américo Vespucio 2701, Cerrillos.",
+    hours: [
+      { label: "Mar – Vie – Vie", value: "8:00 am – 22:00 pm" },
+    ],
+    parking: "Estacionamiento gratuito.",
+    mapsUrl: "https://maps.app.goo.gl/MckSiksynxh9DVsP8",
+  },
+  {
+    id: "l2",
+    name: "ALAS - Apoquindo",
+    address: "Av. Apoquindo 4800, Las Condes.",
+    hours: [
+      { label: "Jue – Dom", value: "8:00 am – 22:00 pm" },
+    ],
+    parking: "Estacionamiento público.",
+    mapsUrl: "https://maps.app.goo.gl/jRxin5JKrM4f3nZQ8",
+  },
 ];

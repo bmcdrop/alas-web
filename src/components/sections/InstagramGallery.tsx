@@ -25,7 +25,7 @@ export default function InstagramGallery() {
             title="Nuestros últimos momentos."
           />
           <Button
-            href="https://instagram.com"
+            href="https://www.instagram.com/alascoffeechile/"
             external
             variant="outline-dark"
             icon={<Instagram size={16} />}
